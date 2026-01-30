@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const instanse = axios.create({
-    baseURL: "http://localhost:3002/api",
+    baseURL: "https://mern-blog-1-0acg.onrender.com/api",
 })
 
 instanse.interceptors.request.use(config => {
